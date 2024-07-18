@@ -17,7 +17,7 @@ import { UserDetailsComponent } from './user-details/user-details.component';
     BrowserModule,
     HttpClientModule,
     FormsModule,
-    AppRoutingModule // Add AppRoutingModule to imports
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: []

@@ -23,7 +23,6 @@ export class UserListComponent implements OnInit {
   isSortedByName: boolean = false;
   isSortedByUsername: boolean = false;
   isSortedByEmail: boolean = false;
-  currentSort: { column: string, order: string } = { column: '', order: 'none' }; // Track the current sort state
   
   constructor(private userService: UserService) { }
 
