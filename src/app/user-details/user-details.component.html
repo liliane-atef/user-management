@@ -1,0 +1,15 @@
+<div *ngIf="isLoading" class="loader">Loading...</div>
+
+<div *ngIf="!isLoading && user">
+  <h2>{{ user.name }} ({{ user.username }})</h2>
+  <p>Email: {{ user.email }}</p>
+  <p>Phone: {{ user.phone }}</p>
+  <p>Website: <a href="{{ user.website }}" target="_blank">{{ user.website }}</a></p>
+  <h3>Address</h3>
+  <p>{{ user.address.street }}, {{ user.address.suite }}</p>
+  <p>{{ user.address.city }}, {{ user.address.zipcode }}</p>
+  <h3>Company</h3>
+  <p>{{ user.company.name }}</p>
+  <p>{{ user.company.catchPhrase }}</p>
+</div>
+

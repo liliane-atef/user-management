@@ -1,0 +1,43 @@
+.loader {
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    margin: 0 5px;
+}
+
+.table {
+    width: 700px;
+    table-layout: fixed; 
+    border-collapse: collapse; 
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+}
+th {
+    cursor: pointer;
+}
+.search {
+    width: 500px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search::placeholder {
+    text-align: center; 
+}
